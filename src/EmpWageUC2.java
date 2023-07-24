@@ -1,0 +1,17 @@
+package com.problems;
+
+public class EmpWageUC2 {
+    public static void main(String[] args) {
+        /*
+         * To Calculate the random number
+         */
+
+        double ispresent = Math.random() * 3;
+
+        if (ispresent >= 2) {
+            System.out.println("Employee is present");
+        } else {
+            System.out.println("Employee is absent");
+        }
+    }
+}
